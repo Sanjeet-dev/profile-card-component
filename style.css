@@ -36,11 +36,11 @@ body {
     background-image: url(./images/bg-pattern-top.svg),
     url(./images/bg-pattern-bottom.svg);
     background-repeat:no-repeat;
-    background-image: url(./images/bg-pattern-bottom.svg);
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 375px;
+    background-position: top -50rem left -28rem, bottom -57rem right -23rem;
 }
 
 .container {
