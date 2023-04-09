@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div class="container">
+    <div class="div1">
 
-  80K
-  Followers
+    </div>
+    <div class="div2">
+      <img src="./images/image-victor.jpg" style="height: 5rem; width:5rem; border-radius:100px; position:relative; left:35%; bottom:44px;">
+    </div>
+    <div class="div3">
 
-  803K
-  Likes
+      <div class="profile">
+        
+        <div class="nameAge">
+          <div class="name">
+         <h4> Victor Crest</h4>
+         </div>
+          <div class="age" style="color: hsl(0,0%,59%);">26</div>
+        </div>
+        
+        
+        <div class="place">
+          <p >London</p>
+        </div>
+        </div>
+      
+    
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <hr style="margin-top:8px; margin-bottom:11px;">
+      <div class="horizontal" style="padding-bottom:10px;">
+        <div class="followers">
+          <div><h3 style="font-size:14px;">80K</h3></div>
+          <div><p style="font-size:x-small; color:hsl(0,0%,59%);">Followers</p></div>
+        </div>
+        <div class="likes">
+          <div><h3 style="font-size:14px;">803K</h3></div>
+          <div><p style="font-size:x-small; color:hsl(0,0%,59%);">Likes</p></div>
+        </div>
+
+        <div class="photos">
+         <div><h3 style="font-size:14px;">1.4K</h3></div>
+          <div><p style="font-size:x-small; color:hsl(0,0%,59%);">Photos</p></div>
+        </div>
+
+      </div>
+
+
+    </div>
   </div>
+
 </body>
+
 </html>
